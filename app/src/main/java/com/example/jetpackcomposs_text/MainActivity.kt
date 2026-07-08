@@ -13,6 +13,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.jetpackcomposs_text.ui.theme.JetpackCompossTextTheme
 import jetpackcomposs.ButtonExample
+import jetpackcomposs.RememberSavableExample
+import jetpackcomposs.StateHoistingParent
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +22,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             JetpackCompossTextTheme {
-               ButtonExample()
+                StateHoistingParent()
             }
         }
     }

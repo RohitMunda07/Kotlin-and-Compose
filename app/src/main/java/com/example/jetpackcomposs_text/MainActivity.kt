@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.jetpackcomposs_text.ui.theme.JetpackCompossTextTheme
+import jetpackcomposs.AlertBoxExample
 import jetpackcomposs.ButtonExample
 import jetpackcomposs.RememberSavableExample
 import jetpackcomposs.StateHoistingParent
@@ -22,7 +23,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             JetpackCompossTextTheme {
-                StateHoistingParent()
+                AlertBoxExample()
             }
         }
     }

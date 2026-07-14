@@ -9,6 +9,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.jetpackcomposs_text.ui.theme.JetpackCompossTextTheme
+import jetpackcomposs.NestedRowsAndColumn
+import jetpackcomposs.TypesOfItems
 import navigatonExample.LoginScreenUI
 import navigatonExample.NavGraph
 
@@ -18,7 +20,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             JetpackCompossTextTheme {
-                NavGraph()
+                TypesOfItems()
             }
         }
     }

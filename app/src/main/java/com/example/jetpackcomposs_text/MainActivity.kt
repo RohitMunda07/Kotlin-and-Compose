@@ -13,6 +13,7 @@ import jetpackcomposs.NestedRowsAndColumn
 import jetpackcomposs.TypesOfItems
 import navigatonExample.LoginScreenUI
 import navigatonExample.NavGraph
+import scaffold.MyScren
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +21,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             JetpackCompossTextTheme {
-                TypesOfItems()
+                MyScren()
             }
         }
     }
